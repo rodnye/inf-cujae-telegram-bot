@@ -1,8 +1,7 @@
 {
-  "name": "cujae-bot",
-  "version": "1.0.0",
+  "name": "inf-cujae-bot",
+  "version": "1.0.5-alpha",
   "description": "Bot informativo para estudiantes de Informática CUJAE",
-  "main": "dist/bot.js",
   "scripts": {
     "start": "ts-node src/bot.ts",
     "build": "tsc",
