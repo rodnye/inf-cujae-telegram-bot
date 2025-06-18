@@ -1,11 +1,7 @@
+import { InlineKeyboard } from 'grammy';
 import { MyContext } from './interfaces';
 
 export async function handleGrades(ctx: MyContext) {
-  if (!ctx.session.isLoggedIn) {
-    await ctx.reply('🔒 Por favor, inicia sesión primero.');
-    return;
-  }
-
   const gradesTable = `
 📊 *Calificaciones del Estudiante ${ctx.session.userId}*
 
